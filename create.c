@@ -24,7 +24,7 @@ int main(int argc, char**argv)
     mqAttr.mq_msgsize = 1024;
     rtos = mq_open (MQNAME, O_RDWR|O_CREAT, S_IWUSR|S_IRUSR, &mqAttr);
     if (rtos < 0) {
-        printf ("   Error %d (%s) on mq_open.\n",
+        printf ("Error %d (%s) on mq_open.\n",
             errno, strerror (errno));
         exit (1);
     }
