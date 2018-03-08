@@ -1,0 +1,16 @@
+Command list for linux.
+
+To open a file with nano editor :nano <file name>
+To create a file with nano :nano <new file name>   // Save the file after done editing
+To copy file :cp <file name> <new file name>       // If new file name is already present it will overwrite it else creates a new one
+To remove/delete a file : rm <file name>
+To remove/delete a directory :rmdir <dir name>     // If permission denied add sudo at the beginning
+To make new directory :mkdir <dir name>
+To move to some directory :cd <dir name>
+To go back to home directory :cd
+To make dir for q: sudo mkdir /dev/mqueue
+To mount the q :sudo mount -t mqueue none /dev/mqueue
+To compile a .c file :gcc <.c file> -o <output file name> <if any library to be linked>
+To run a compiled .c file :./<output file name>
+To stop a program : ctrl+c
+
