@@ -3,16 +3,8 @@
 #include<unistd.h>
 #include<fcntl.h>
 #include<errno.h>
-#include<time.h>
-#include<dirent.h>
-#include<string.h>
-#include<sys/types.h>
-#include<sys/ipc.h>
-#include<sys/shm.h>
 #include<pthread.h>
 #include<semaphore.h>
-#include<sys/time.h>
-#include<sched.h>
 
 #define NUM_THREADS 2
 
