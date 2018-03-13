@@ -2,6 +2,9 @@
    In this example the two thread attributes are main_sched_attr and rt_sched_attr,
    those are just names and is nothing to do with the main thread.
    main_sched_attr has highest priority and rt has the next highest.
+
+   NOTE: Use sudo while running the program
+
 */
 
 #include<stdio.h>
